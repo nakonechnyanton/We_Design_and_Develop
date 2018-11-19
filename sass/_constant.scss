@@ -12,7 +12,21 @@
 	src: url("../font/Work_SansRegual/WorkSans-Regular.ttf");
 }
 //text
-
+.text_Montserrat{
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+}
+.text_Nunito_SansRegual{
+	font-family: Nunito_SansRegual;
+	font-size: 18px;
+	color: #787878;
+}
+h2{
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: bold;
+}
 //constant
 .no-padding{
 	padding-left: 0px;
@@ -23,6 +37,9 @@
 }
 // buttons
 .button_one{
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
 	background-color: #10C9C3;
 	top: 415px;
 	width: 180px;

@@ -3,28 +3,26 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<title>Sait</title>
-
+		<title>We Design and Develop</title>
 		<!-- CSS lib  -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/owl.theme.default.css">
-		<link rel="stylesheet" href="bower_components/pixeden-stroke-7-icon/pe-icon-7-stroke/dist/pe-icon-7-stroke.css">
+		<link rel="stylesheet" href="css/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<!------------------>
+		
 		<!-- JS lib -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<script src="bower_components/owl.carousel/dist/owl.carousel.js"></script>
-		<!------------------>
+		<script src="js/owl.carousel.min.js"></script>
+		
 	</head>
 	<body>
 		<header class="container-fluid">
 			<div class="container">
 				<div class="menu row">
-					<div class="col-1 no-padding">
+					<div class="col-1">
 						<div id="media_menu">
 							<i class="pe-7s-menu pe-2x pe-va"></i>
 						</div>
@@ -48,12 +46,12 @@
 						<p>We are a new design studio based in USA. We have over
 							20 years of combined experience, and know a thing or two
 						about designing websites and mobile apps.</p>
-						<button class="button_one">contact us</button>
+						<input type="button" class="button_one" onclick="location.href='#form_go';" value="contact us"/>
 					</div>
 				</div>
 			</div>
-		</header>	
-		<div class="about_block about_us container-fluid">
+		</header>
+		<div class="about_us container-fluid">
 			<div class="row justify-content-md-center">
 				<div class="col-md-auto align-self-center">
 					<h2>About Us</h2>
@@ -67,20 +65,17 @@
 		<div class="prof_skils container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 no-padding">
+					<div class="col-md-6">
 						<h2>Professional Skills</h2>
 						<br>
 						<p>UI/UX Design    75%</p>
-						<br>
 						<div class="prof_skils_line line_one"></div>
-						<br>
+						<br><br>
 						<p>web development    90%</p>
-						<br>
 						<div class="prof_skils_line line_two"></div>
-						<br>
+						<br><br>
 						<p>marketing    65%</p>
-						<br>
-						<div class="prof_skils_line line_tree"></div><br>
+						<div class="prof_skils_line line_tree"></div>
 					</div>
 					<div class="col-6"></div>
 				</div>
@@ -89,20 +84,20 @@
 		<div class="static container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3">
+					<div class="col-md-3 col-6">
 						<div class="row align-items-center">
-							<div class="col-md-auto no-padding">
+							<div class="col-md-auto">
 								<i class="pe-7s-portfolio pe-4x pe-va"></i>
 							</div>
-							<div class="col-md-auto">
+							<div class="static_t col-md-auto">
 								<p class="static_number">548</p>
 								<p class="static_text">projects completed</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-md-3 col-6">
 						<div class="row align-items-center">
-							<div class="col-md-auto no-padding">
+							<div class="col-md-auto">
 								<i class="pe-7s-clock pe-4x pe-va"></i>
 							</div>
 							<div class="col-md-auto">
@@ -111,9 +106,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-md-3 col-6">
 						<div class="row align-items-center">
-							<div class="col-md-auto no-padding">
+							<div class="col-md-auto">
 								<i class="pe-7s-star pe-4x pe-va"></i>
 							</div>
 							<div class="col-md-auto">
@@ -122,9 +117,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-md-3 col-6">
 						<div class="row align-items-center">
-							<div class="col-md-auto no-padding">
+							<div class="col-md-auto">
 								<i class="pe-7s-like pe-4x pe-va"></i>
 							</div>
 							<div class="col-md-auto">
@@ -159,8 +154,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="about_block work_process container-fluid">
-			<div class="row justify-content-md-center">
+		<div class="work_process container-fluid">
+			<div class="row justify-content-center">
 				<div class="col-md-auto align-self-center">
 					<h2>Our Work Process</h2>
 					<p>Was years it seasons was there form he in in them together over that,<br>
@@ -171,7 +166,7 @@
 		<div class="big_gal container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col">
+					<div class="col-12">
 					</div>
 				</div>
 			</div>
@@ -179,51 +174,51 @@
 		<div class="icons_block container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<i class="pe-7s-diamond pe-4x pe-va"></i><br>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-diamond pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">ui / ux design</p>
 						<p class="icons_block_text_second">Be set fourth land god darkness<br>
 						make it wherein own</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-arc pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-arc pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">web development</p>
 						<p class="icons_block_text_second">A she'd them bring void moving<br>
 						third she'd kind fill</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-phone pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-phone pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">app / mobile</p>
 						<p class="icons_block_text_second">Dominion man second spirit he,<br>
 						earth they're creeping</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-joy pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-joy pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">game design</p>
 						<p class="icons_block_text_second">Morning his saying moveth it <br>
 						multiply appear life be</p>
 					</div>
 					<div class="w-100"></div>
-					<div class="col-md-3">
-						<i class="pe-7s-plane pe-4x pe-va"></i><br>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-plane pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">SEO / marketing</p>
 						<p class="icons_block_text_second">Give won't after land fill creeping <br>
 						meat you, may</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-star pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-star pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">photography</p>
 						<p class="icons_block_text_second">Creepeth one seas cattle grass <br>
 						give moving saw give</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-magic-wand pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-magic-wand pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">graphic design</p>
 						<p class="icons_block_text_second">Open, great whales air rule for, <br>
 						fourth life whales</p>
 					</div>
-					<div class="col-md-3">
-						<i class="pe-7s-paint-bucket pe-4x pe-va"></i>
+					<div class="col-md-3 col-6">
+						<i class="pe-7s-paint-bucket pe-4x pe-va"></i><br><br>
 						<p class="icons_block_text_first">illustrations</p>
 						<p class="icons_block_text_second">Whales likeness hath, man kind <br>
 						for them air two won't</p>
@@ -234,11 +229,11 @@
 		<div class="big_carusel container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col no-padding">
+					<div class="col">
 						<div class="owl-carousel owl-theme">
 							<div class="item">
 								<p class="big_carusel_item_text_first">
-									“ Outstanding job and exceeded all expectations. It was a pleasure
+									“Outstanding job and exceeded all expectations. It was a pleasure
 									<br>
 									to work with them on a sizable first project and am looking
 									<br>
@@ -268,7 +263,7 @@
 						</p>
 					</div>
 				</div>
-				<form class="row justify-content-center" method="post" action="">
+				<form class="row justify-content-center" method="post" action="main.php" id="form_go">
 					<div class="col-md-7">
 						<div class="row">
 							<div class="col-md-6">
@@ -287,7 +282,7 @@
 						<br>
 						<div class="row">
 							<div class="col-md-12">
-								<textarea name="your_comment" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+								<textarea name="your_comment" cols="30" rows="10" placeholder="Your Comment"></textarea>
 							</div>
 						</div>
 						<button class="button_one">send message</button>
@@ -305,7 +300,7 @@
 						Designed by robirurk.</p>
 					</div>
 					<div class="col-md-7 no-padding">
-						<div class="row"> 
+						<div class="row">
 							<div class="col-sm-4">
 								<p>hello@pirolltheme.com<br>+44 987 065 908</p>
 							</div>
@@ -342,12 +337,10 @@
 			0:{
 			items:1,},
 			600:{
-			items:1,
-			
+			items:1,	
 			},
 			1000:{
-			items:1,
-			
+			items:1,			
 			loop:false
 			}
 			}
@@ -368,17 +361,15 @@
 					$('.navig').css("left", "0px");
 					$('#media_menu>i').removeClass('pe-7s-menu').addClass('pe-7s-close');
 				}else if($('.navig').css("left") == "0px"){
-					$('.navig').css("left", "-300px");		
+							$('.navig').css("left", "-300px");
 					$('#media_menu>i').removeClass('pe-7s-close').addClass('pe-7s-menu')
 				};
 			});
 			
-// function auto_search() {
-// 	if($('.navig').css("left") == "-300px" && $('#media_menu').css("display") == "none"){
-// 		$('.navig').css("left", "0px")}
-// 	}
+		// function auto_search() {
+		// 	if($('.navig').css("left") == "-300px" && $('#media_menu').css("display") == "none"){
+		// 		$('.navig').css("left", "0px")}
+		// 	}
 		</script>
-
-
 	</body>
 </html>
