@@ -2,6 +2,7 @@
 Шаблон We Design and Develop написан с использованием flexbox (в основе Bootstrap 4). 
 Присутствует адаптивная верстка. 
 Шаблон прошел валидацию.
+Страница 1.
 
 В процессе создания был использован бесплатный PSD шаблон, который взят [т-у-т](http://psd-html-css.ru/templates/piroll-besplatnyy-psd-shablon-dlya-portfolio)
 
